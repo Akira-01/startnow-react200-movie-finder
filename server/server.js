@@ -9,17 +9,17 @@ app.use(express.static('public'));
 
 require('dotenv').config();
 
- 
-app.get('/api', (req,res) => {
-    //res.send('response from my server')
-    //otherwise go get omdb data
-    axios.get(('http://www.omdbapi.com'+ req.url + '&apikey=' + process.env.API_KEY)
-    .then(r => {
-        res.json(r.data);     
+
+app.get('/api', (req, res) => {
+    // res.send('response from my server')
+    // otherwise go get omdb data
+  axios.get(`http://www.omdbapi.com${  req.url  }&apikey=${  process.env.API_KEY}`)
+    .then((r) => {
+      res.json(r.data);
     })
     .catch((e) => {
-        res.send(e.message);
-    })
- });
+      res.send(e.message);
+    });
+});
 
 module.exports = app;

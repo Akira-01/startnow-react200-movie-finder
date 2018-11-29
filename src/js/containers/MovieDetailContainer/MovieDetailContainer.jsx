@@ -6,13 +6,13 @@ class MovieDetailContainer extends React.Component {
   }
 
   render() {
-    return(
-       <div>
-         <h1>Movie MovieDetailContainer</h1>
+    return (
+      <div>
+        <h1>Movie Detail Container</h1>
 
-         <p>Viewing movie {this.props.match.params.id}</p>
-       </div>
-    );
+        <p>Viewing movie {this.props.match.params.id}</p>
+      </div>
+    )
   }
 }
 

@@ -10,7 +10,7 @@ class MovieSearchContainer extends React.Component {
       <div>
         <h1>Movie Search Container</h1>
       </div>
-    );
+    )
   }
 }
 
