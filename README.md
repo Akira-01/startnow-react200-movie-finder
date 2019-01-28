@@ -10,3 +10,5 @@ npm start
 
 ![screen shot 2019-01-27 at 7 56 35 pm](https://user-images.githubusercontent.com/18974511/51814034-2db38f00-226e-11e9-9742-882f82fe1bce.png)
 
+Movie search query
+
