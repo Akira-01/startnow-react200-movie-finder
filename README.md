@@ -4,7 +4,7 @@ Movie Finder application using React, Redux and React Router. This application w
 
 Added Api routes from a movie database using Axios calls, and using Redux lifecycle for data.
 
-### Instructions for starting program
+### Setup
 
 npm start
 
